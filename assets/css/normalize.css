@@ -1,6 +1,8 @@
 *{margin: 0;
 padding: 0;
-box-sizing: 0;}
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -26,7 +28,6 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 html {
-	max-width: 1440px;
 	height: 100%;
 }
 body {

@@ -1,0 +1,26 @@
+.info {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.info-content{
+    display: flex;
+    justify-content: space-between;
+
+}
+.info__description {
+}
+.info-logo {
+}
+.info-title {
+}
+.info-text {
+}
+.info__botton-groupe {
+}
+.info-btn {
+}
+.info__photo {
+}
