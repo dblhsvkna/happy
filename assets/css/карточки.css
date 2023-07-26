@@ -1,0 +1,29 @@
+.карточки {
+    background: #222;
+height: 1338px;
+padding-top: 100px;
+}
+.карточки__группа-заголовков {
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.карточки__заголовок1 {
+    font-size: 14px; 
+    margin-top: 5px;
+}
+.карточки__заголовок2 {
+    font-size: 32px; 
+    text-align: center;
+}
+.карточки__группа-карточек {
+}
+.карточки__одна-карточка {
+    border-radius: 20px;
+background: #FFF;
+width: 379px; 
+display: flex;
+justify-content: center;
+padding-top: 40px;
+}
