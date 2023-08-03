@@ -34,3 +34,8 @@ height: 40px;
 .header-navigation a{
  
 }
+@media (max-width:768px) {
+    .header-nav-cont{
+        display: none;
+    }
+}

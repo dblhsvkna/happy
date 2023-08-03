@@ -1,6 +1,5 @@
 .карточки {
     background: #222;
-height: 1338px;
 padding-top: 100px;
 }
 .карточки__группа-заголовков {
@@ -24,8 +23,8 @@ padding-top: 100px;
     gap: 16px;
     justify-content: space-between;
     margin-top: 40px;
-    padding-left: 136px;
-    padding-right: 136px;
+    padding-left: 120px;
+    padding-right: 120px;
 }
 .карточки__одна-карточка {
     border-radius: 20px;
@@ -62,5 +61,15 @@ padding: 0px 47px 0px 47px;
     margin-top: 11px;
     line-height: 22.4px; /* 149.333% */
    
+    
+}
+@media (max-width:768px) {
+    .карточки__группа-карточек{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .карточки__одна-карточка{
+        min-width: 379px;
+    }
     
 }
