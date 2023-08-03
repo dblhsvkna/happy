@@ -19,7 +19,13 @@ padding-top: 100px;
     text-align: center;
 }
 .карточки__группа-карточек {
-    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding-left: 136px;
+    padding-right: 136px;
 }
 .карточки__одна-карточка {
     border-radius: 20px;
@@ -28,6 +34,7 @@ width: 379px;
 display: flex;
 justify-content: center;
 padding-top: 40px;
+position: relative;
 }
 .карточка__низ-карточки{
     border-radius: 0px 0px 20px 20px;
@@ -36,6 +43,9 @@ box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.20);
 width: 379px;
 height: 197px;
 flex-shrink: 0;
+position: absolute;
+bottom: 0;
+padding: 0px 47px 0px 47px;
 }
 .карточки__заголовок{
     color: #0278ED;
@@ -48,7 +58,9 @@ flex-shrink: 0;
     text-align: center;
     font-size: 15px;
     color: #222;
-    width: 286px;
+    width: 100%;
     margin-top: 11px;
     line-height: 22.4px; /* 149.333% */
+   
+    
 }
